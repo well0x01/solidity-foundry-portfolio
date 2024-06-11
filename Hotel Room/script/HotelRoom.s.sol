@@ -6,7 +6,7 @@ import {HotelRoom} from "../src/HotelRoom.sol";
 
 contract HotelRoomScript is Script {
   function run() external {
-    // Inicializar o contrato
+
     vm.startBroadcast();
     HotelRoom hotelRoom = new HotelRoom();
     vm.stopBroadcast();
